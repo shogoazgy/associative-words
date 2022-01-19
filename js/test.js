@@ -259,6 +259,10 @@ function dijkstra(start, goal) {
     }
     console.log(path)
     console.log(d)
+    if (path.length <= 2) {
+        display_not_found(1)
+        display_not_found(0)
+    }
     for (let i = path.length - 2; i > 0; i--) {
         insert_word(path[i])
         if (i != 1) {
