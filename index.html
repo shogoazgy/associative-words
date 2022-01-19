@@ -1,9 +1,41 @@
 <html>
 <head>
-<meta charset="utf-8">
-<title>Test</title>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
-<body>
-Test
+<header>
+    <div class="headline">
+        <h1>
+        連想ゲーム
+        </h1>
+    </div>
+<body background="/img/banana.jpg">
+    <script src="js/test.js"></script>
+    <div class="box">
+        <div class="cp_iptxt" id="first">
+            <label class="ef">
+                <input type="text" placeholder="はじめの単語" id="word_first">
+            </label>
+        </div>
+        <div class="arrow">
+        </div>
+        <div id="word_box">
+
+        </div>
+        <div class="arrow1">
+        </div>
+        <div class="cp_iptxt" id="end">
+            <label class="ef">
+                <input type="text" placeholder="おわりの単語" id="word_end">
+            </label>
+        </div>
+    </div>
+    <div id="enter">
+        <div id="enter-inner">
+            <div><a href="javascript:void(0)" onclick="OnButtonClick();"><span><i class="fas fa-search"></i>実行</span></a></div>
+        </div>
+    </div>
+    
 </body>
 </html>
