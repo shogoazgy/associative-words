@@ -72,7 +72,7 @@ class PriorityQueue {
 var words
 var graph
 window.addEventListener('DOMContentLoaded', function(){
-    fetch('../word_list.txt') // (1) リクエスト送信
+    fetch('https://shogoazgy.github.io/associative-words/word_list.txt') // (1) リクエスト送信
     .then(response => response.text()) // (2) レスポンスデータを取得
     .then(data => { // (3)レスポンスデータを処理
         words = data;  
@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-    fetch('../graph_data.txt') // (1) リクエスト送信
+    fetch('https://shogoazgy.github.io/associative-words/graph_data.txt') // (1) リクエスト送信
     .then(response => response.text()) // (2) レスポンスデータを取得
     .then(data => { // (3)レスポンスデータを処理
         graph = data;
