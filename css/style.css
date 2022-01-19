@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/banana.jpg");
+    background-image: url("https://shogoazgy.github.io/associative-words/img/banana.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-color:rgba(255,255,255,0.6);
     background-blend-mode:lighten;
-    font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+    font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	
 	-webkit-text-size-adjust: none;
 	color: #333;		
 	line-height: 2;		
